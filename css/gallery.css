@@ -1,0 +1,94 @@
+.gall-name {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2em;
+}
+
+.gall-name a:hover {
+    background-color: rgb(85, 54, 83);
+}
+
+.gall-name h1,
+.gall-name a {
+    font-weight: 600;
+    color: rgb(204, 165, 201);
+    text-decoration: none;
+}
+
+.gall-name a {
+    box-shadow: 0 0.5em 1em -0.125em rgb(10 10 10 / 60%), 0 0 0 1px rgb(10 10 10 / 24%);
+    padding-inline: 95%;
+}
+
+.gall-name a:hover {
+    color: rgb(68, 43, 67); 
+}
+
+.gall-mar{
+    margin-top: 4em;
+    
+}
+
+.container-head .card {
+    display: inline-flex;
+  background: transparent;
+  --bs-card-bg: rgba(255, 255, 255, 0);
+  background-color: var(--bs-card-bg);
+  border-color: rgb(204, 165, 201);
+  margin-bottom: 2em;
+  margin-left: 4%;
+  box-shadow: 0 0.5em 1em -0.125em rgb(10 10 10 / 60%), 0 0 0 1px rgb(10 10 10 / 24%);
+}
+
+.card img {
+    height: 15em;
+    object-fit: cover;
+}
+
+.card-body p {
+    color: rgb(204, 165, 201);
+}
+
+.card-body .btn {
+    --bs-btn-color: rgb(204, 165, 201);
+    color: var(--bs-btn-color);
+    color: rgb(204, 165, 201);
+    border-color: rgb(204, 165, 201);
+}
+
+@media (max-width: 1000px) {
+    .container-fluid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .container-head .card {
+        columns: 1fr;
+        margin: 3%;
+        width: 80% !important ;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    a {
+       text-decoration: none;
+    }
+}
+
+@media (max-width: 576px) {
+    .container-head .card {
+        columns: 1fr;
+        margin: 3%;
+        width: 90% !important ;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .card img {
+        height: 7em;
+    }
+
+    .card-body p {
+        font-size: 0.85em;
+    }
+}

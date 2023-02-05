@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+
+body {
+    background-size: cover;
+    font-family: Oswald, serif !important ;
+}
+
+.container-head {
+    margin-top: 4vh;
+    background: linear-gradient(135deg, rgb(41, 38, 40)3%, rgb(114, 72, 110)100%);
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 6%;
+    border-radius : 3em;
+    box-shadow : 2em  2em  27px  5px rgb(73, 46, 70) ;
+    outline: 3px solid rgb(31, 19, 29);
+    outline-offset: 8px;
+    border: 2px solid #000;
+    opacity: 0.85;
+}
+
+.name {
+    display: flex;
+    justify-content: center;
+    margin-top: 11vh;
+}
+
+.name h1 {
+    color: #d191cc;
+    font-weight: 700;
+}
+
+.footer {
+    display: block;
+    padding-bottom: 2em;
+    padding-top: 1em;
+    border-top-color: #000;
+    border-top-width: 2px;
+    border-top-style: solid;
+    padding-bottom: 0;
+}
+
+.foot {
+    display: flex;
+    justify-content: space-between;
+    margin-inline: 1em;
+}
+
+.dozvil {
+    height:80px;
+}
+
+.contacts img,
+.contacts a {
+    width: 40px;
+    margin-inline: 0.5em;
+    margin-bottom: 0;
+    margin-top: 2.2em;
+}
+
+.foot>a {
+    text-decoration: none;
+}
+
+.contacts {
+    display: inline-block;
+    justify-items: center;
+}
+
+.ft-text {
+    text-align: center;
+    font-size: 16px;
+    color: rgb(208, 144, 203);
+    font-weight: 700;
+}
+
+.ft-text a {
+    text-decoration: none;
+}
+
+.navbar a {
+    color: #d191cc;
+    font-weight: 500;
+}
+
+body nav {
+    background: linear-gradient(100deg, rgb(41, 38, 40)30%, rgb(114, 72, 110)100%);
+    border-bottom: 3px;
+    border-bottom-style: solid;
+    border-bottom-color: #242123;
+    border-end-end-radius: 80px 80px;
+    border-bottom-left-radius: 80px 80px;
+    width: 100%;
+}
+
+.navbar-brand img {
+    height: 32px;
+    margin-left: 2em;
+}
+
+.navigation {
+    display: inline-flex;
+}
+
+.nav-text {
+    display: inline-flex;
+}
+
+.navbar span {
+    color: #242123;
+    font-weight: 700;
+    margin-right: 2.2em;
+}
+
+.navbar-brand img {
+    height: 32px;
+    margin-left: 2em;
+}
+
+.me-auto {
+    display: inline-flex;
+    margin-inline: 1em;
+    padding-inline: 1em;
+    list-style: none;
+}
+
+.me-auto li {
+    margin-inline: 0.5em;
+    margin-top: 5px;
+    padding-bottom: 0;
+}
+
+.fixedtop {
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+body .navbar {
+    position: sticky;
+}
+
+@media (max-width: 1000px) {
+
+    .navbar-text {
+        display: none;
+    }
+    
+    .dozvil {
+        display: none;
+    }
+    
+    .ft-text {
+        font-size: 0.7em;
+        text-align: left;
+    }
+}
